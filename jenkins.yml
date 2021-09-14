@@ -1,5 +1,5 @@
 identidock:
-    buid: .
+    build: .
     expose:
      - "9090"
     environment:
@@ -8,7 +8,7 @@ identidock:
      - dnmonster
      - redis
 dnmonster:
-    images: amouat/dnmonster:1.0 
+    image: amouat/dnmonster:1.0 
 redis:
-    images: redis:3.0
+    image: redis:3.0
 
