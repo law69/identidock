@@ -7,8 +7,8 @@ identidock:
     links:
      - dnmonster
      - redis
-dnmonster
+dnmonster:
     images: amouat/dnmonster:1.0 
-redis
+redis:
     images: redis:3.0
 
